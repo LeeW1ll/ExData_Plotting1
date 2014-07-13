@@ -112,3 +112,12 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+
+##Files
+
+4 R scripts are provided for each of the four plots, plot1.R, ...plot4.R
+Data is loaded using the sqldf package which extracts only data required for the first and second of July 2007.
+A date and a datetime field is then added.
+The rest of the code creates the plots in the PNG interface and creates the required files plot1.png, ..., plot4.png
+
+
